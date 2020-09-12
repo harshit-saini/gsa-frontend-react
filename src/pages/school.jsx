@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import http from "../services/httpService";
 import { deleteSchool } from "../services/schoolService";
 
-const apiBaseURL = "http://localhost:5500/api/v1";
+const apiBaseURL = process.env.REACT_APP_API_URL;
 
 class Board extends Component {
   state = {
