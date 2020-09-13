@@ -13,13 +13,22 @@ class Home extends Component {
         </div>
         <div className="row">
           <div className="col-12 col-md-8 offset-md-2 d-flex justify-content-between flex-wrap">
-            <Link to="/student/new" className="btn btn-primary">
+            <Link
+              to="/student/new"
+              className="btn btn-primary flex-grow-1 flex-md-fill m-1"
+            >
               Add Student
             </Link>
-            <Link to="/school/new" className="btn btn-primary">
+            <Link
+              to="/school/new"
+              className="btn btn-primary flex-grow-1 flex-md-fill m-1"
+            >
               Add School
             </Link>
-            <Link to="/board/new" className="btn btn-primary">
+            <Link
+              to="/board/new"
+              className="btn btn-primary flex-grow-1 flex-md-fill m-1"
+            >
               Add Board
             </Link>
           </div>
